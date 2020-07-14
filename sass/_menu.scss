@@ -1,5 +1,5 @@
 .menu {
-    height: 80px;
+    height: 70px;
     background-color: rgba(23, 28, 83, 0.9);
     border-top: solid 3px $comcolor;
     position: fixed;
@@ -17,13 +17,13 @@
         // mix-blend-mode: multiply;
 
         img {
-            max-width: 80px;
-            max-height: 50px;
+            max-width: 70px;
+            max-height: 45px;
             margin-right: 3em;
         }
 
         a {
-            width: 140px;
+            width: 120px;
             // margin-right: 3em;
             align-self: center;
             color:white;
@@ -38,7 +38,7 @@
         }
 
         a:nth-child(odd) {
-            width: 160px;
+            width: 140px;
           }
 
         a:hover {

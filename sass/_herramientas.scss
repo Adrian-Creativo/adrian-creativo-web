@@ -1,6 +1,6 @@
 .herramientas {
     max-height: 1000px;
-    border-top: solid 5px $maincolor;
+    border-top: solid 4px $maincolor;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 7fr 1fr;
@@ -8,8 +8,7 @@
     .titulo {
         grid-column: 2/3;
         grid-row: 1/2;
-        height: 60px;
-        width: 70%;
+        width: 65%;
         background-color: $maincolor;
         border-bottom: solid 5px $comcolor;
         display: grid;
@@ -19,7 +18,6 @@
             color: white;
             justify-self: center;
             align-self: center;
-            text-transform:uppercase;
         }
     }
 
@@ -35,19 +33,19 @@
 
         .primera {
             grid-column: 1/2;
-            width: 95%;
+            width: 84%;
             justify-self: center;
         }
 
         .segunda {
             grid-column: 2/3;
-            width: 95%;
+            width: 84%;
             justify-self: center;
         }
 
         .tercera {
             grid-column: 3/4;
-            width: 95%;
+            width: 84%;
             justify-self: center;
         }
 
@@ -62,7 +60,7 @@
             background-image: url(../img/separador.png);
             background-repeat: no-repeat;
             background-position: bottom;
-            background-size: 72% 1px;
+            background-size: 82% 1px;
         }
 
         .uno {
@@ -82,19 +80,21 @@
             height: 60px;
             background-color: white;
             display: grid;
-            grid-template-columns: 0.8fr 1fr 4fr 0.8fr;
+            grid-template-columns: 0.3fr 1fr 4fr 0.3fr;
             align-content: center;
             
             img {
                 grid-column: 2/3;
-                max-width: 30px;
-                max-height: 30px;
+                max-width: 27px;
+                max-height: 27px;
                 justify-self: center;
+                align-self: center;
             }
 
             h2 {
                 align-self: center;
                 margin-left: 0.5em;
+                font-size: 1.2em;
             }
         }
     }
