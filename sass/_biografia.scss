@@ -1,0 +1,59 @@
+.biografia {
+    height: 780px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+
+    .contenedor {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 6fr 1fr 6fr;
+
+        img {
+            max-width: 400px;
+            align-self: center;
+            border-radius: 50%;
+            box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.24);
+        }
+
+        .texto {
+            grid-column: 3/4;
+            align-self: center;
+            justify-self: end;
+            display: grid;
+
+            h1 {
+                margin-bottom: 0.5em;
+            }
+
+            h2 {
+                color: $maincolor;
+            }
+    
+            a{
+                color: $maincolor;
+                width: 80px;
+                color: $maincolor;
+                font-weight: 700;
+                justify-self: end;
+    
+                i{
+                    border: solid $maincolor;
+                    margin-left: 0em;
+                    transition: 0.3s;
+                    border-width: 0 4px 4px 0;
+                    padding: 0.25em;
+                }
+            }
+
+            a:hover {
+            
+                i {
+                    margin-left: 0.2em;
+                }
+            }
+        }
+    }
+}

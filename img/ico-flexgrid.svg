@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="ico-flexgrid" transform="translate(-760.25 -347)">
+    <rect id="Rectángulo_22" data-name="Rectángulo 22" width="40" height="40" rx="9.625" transform="translate(760.25 347)" fill="#263238"/>
+    <g id="Grupo_69" data-name="Grupo 69" transform="translate(760.25 347)">
+      <path id="Trazado_270" data-name="Trazado 270" d="M779.006,347H765.383a5.133,5.133,0,0,0-5.133,5.133v9.178h18.756Z" transform="translate(-760.25 -347)" fill="#a0f"/>
+      <path id="Trazado_271" data-name="Trazado 271" d="M760.25,377.833v18.422a5.133,5.133,0,0,0,5.133,5.133h13.622V377.833Z" transform="translate(-760.25 -361.389)" fill="#ff4081"/>
+      <path id="Trazado_272" data-name="Trazado 272" d="M799.75,409.011h13.8a5.133,5.133,0,0,0,5.133-5.133v-9.711H799.75Z" transform="translate(-778.683 -369.011)" fill="#ffc107"/>
+      <path id="Trazado_273" data-name="Trazado 273" d="M813.55,347h-13.8v23.022h18.933V352.133A5.133,5.133,0,0,0,813.55,347Z" transform="translate(-778.683 -347)" fill="#4caf50"/>
+    </g>
+  </g>
+</svg>

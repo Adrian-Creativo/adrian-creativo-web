@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="ico-webflow" transform="translate(-2107 -4816)">
+    <g id="bootstrap-4" transform="translate(2107 4816)">
+      <path id="Trazado_261" data-name="Trazado 261" d="M0,34.842A5.158,5.158,0,0,0,5.158,40H34.842A5.158,5.158,0,0,0,40,34.842V5.158A5.158,5.158,0,0,0,34.842,0H5.158A5.158,5.158,0,0,0,0,5.158V34.842Z" transform="translate(0 0)" fill="#2e76bf"/>
+    </g>
+    <g id="Grupo_71" data-name="Grupo 71" transform="translate(2112.06 4825.562)">
+      <g id="Grupo_70" data-name="Grupo 70" transform="translate(0 0)">
+        <path id="Trazado_278" data-name="Trazado 278" d="M89.773,233.618s-2.439,7.638-2.639,8.278c-.08-.64-1.839-14.4-1.839-14.4-4.159,0-6.358,2.959-7.558,6.078,0,0-2.959,7.678-3.2,8.318,0-.6-.44-8.238-.44-8.238a6.771,6.771,0,0,0-6.6-6.158l3.4,20.834c4.359,0,6.678-2.959,7.918-6.078,0,0,2.6-6.758,2.719-7.078l1.879,13.156c4.359,0,6.718-2.759,8-5.758l6.118-15.035C93.212,227.54,90.973,230.5,89.773,233.618Z" transform="translate(-67.5 -227.5)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

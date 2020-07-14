@@ -1,0 +1,28 @@
+<svg id="camara" xmlns="http://www.w3.org/2000/svg" width="108.562" height="83.231" viewBox="0 0 108.562 83.231">
+  <path id="Trazado_279" data-name="Trazado 279" d="M60.556,116.014H49.7v-6.582a1.748,1.748,0,0,1,1.747-1.747h7.361a1.748,1.748,0,0,1,1.747,1.747Z" transform="translate(-38.844 -96.828)" fill="#343a77"/>
+  <path id="Trazado_280" data-name="Trazado 280" d="M73.424,107.683H68.4a1.748,1.748,0,0,1,1.747,1.747v6.582h5.024v-6.582A1.748,1.748,0,0,0,73.424,107.683Z" transform="translate(-53.459 -96.827)" fill="#343a77"/>
+  <path id="Trazado_281" data-name="Trazado 281" d="M101.325,76.078H95.369a7.237,7.237,0,0,1-6.72-4.55l-3.6-8.995a7.238,7.238,0,0,0-6.72-4.55H48.325a7.238,7.238,0,0,0-6.72,4.55l-3.6,8.995a7.238,7.238,0,0,1-6.72,4.55H7.237A7.237,7.237,0,0,0,0,83.315v50.662a7.237,7.237,0,0,0,7.237,7.237h94.087a7.237,7.237,0,0,0,7.237-7.237V83.315A7.237,7.237,0,0,0,101.325,76.078Z" transform="translate(0 -57.984)" fill="#161616"/>
+  <g id="Grupo_72" data-name="Grupo 72" transform="translate(73.307 0)">
+    <path id="Trazado_282" data-name="Trazado 282" d="M342.322,62.533l3.6,8.995a7.238,7.238,0,0,0,6.72,4.55h5.024a7.238,7.238,0,0,1-6.72-4.55l-3.6-8.995a7.237,7.237,0,0,0-6.72-4.55H335.6A7.238,7.238,0,0,1,342.322,62.533Z" transform="translate(-335.602 -57.983)" fill="#161616"/>
+    <path id="Trazado_283" data-name="Trazado 283" d="M445.891,140.817h-5.024a7.237,7.237,0,0,1,7.237,7.237v50.662a7.237,7.237,0,0,1-7.237,7.237h5.024a7.237,7.237,0,0,0,7.237-7.237V148.054A7.237,7.237,0,0,0,445.891,140.817Z" transform="translate(-417.874 -122.723)" fill="#161616"/>
+  </g>
+  <path id="Trazado_284" data-name="Trazado 284" d="M132.533,207.083v50.662h72.375a7.237,7.237,0,0,0,7.237-7.237V207.083Z" transform="translate(-103.583 -174.514)" fill="#161616"/>
+  <path id="Trazado_285" data-name="Trazado 285" d="M424.833,256.783h4.908a3.619,3.619,0,0,1,0,7.238h-4.908Z" transform="translate(-332.034 -213.358)" fill="#343a77"/>
+  <path id="Trazado_286" data-name="Trazado 286" d="M0,207.083H39.806a1.638,1.638,0,0,1,0,3.277H0Z" transform="translate(0 -174.514)" fill="#161616"/>
+  <g id="Grupo_74" data-name="Grupo 74" transform="translate(49.024 9.218)">
+    <g id="Grupo_73" data-name="Grupo 73" transform="translate(0 0)">
+      <path id="Trazado_287" data-name="Trazado 287" d="M251.4,103.46H226.071a1.638,1.638,0,0,1,0-3.277H251.4a1.638,1.638,0,1,1,0,3.277Z" transform="translate(-224.433 -100.183)" fill="#161616"/>
+    </g>
+  </g>
+  <path id="Trazado_288" data-name="Trazado 288" d="M436.224,379.988h-3.742a1.748,1.748,0,0,1-1.748-1.748V374.5a1.748,1.748,0,0,1,1.748-1.748h3.742a1.748,1.748,0,0,1,1.747,1.748v3.742A1.748,1.748,0,0,1,436.224,379.988Z" transform="translate(-336.646 -303.994)" fill="#343a77"/>
+  <path id="Trazado_289" data-name="Trazado 289" d="M126.671,200.355a1.638,1.638,0,0,0,1.638-1.638v-57.9h-3.277v57.9A1.638,1.638,0,0,0,126.671,200.355Z" transform="translate(-97.721 -122.723)" fill="#161616"/>
+  <path id="Trazado_290" data-name="Trazado 290" d="M113.875,413.122H99.4v-5.49a1.747,1.747,0,0,1,1.747-1.747h10.98a1.748,1.748,0,0,1,1.747,1.747Z" transform="translate(-77.688 -329.89)" fill="#343a77"/>
+  <g id="Grupo_75" data-name="Grupo 75" transform="translate(0 41.787)">
+    <path id="Trazado_292" data-name="Trazado 292" d="M7.237,252.56a1.638,1.638,0,1,0,0-3.277H0v3.277Z" transform="translate(0 -249.283)" fill="#fff"/>
+    <path id="Trazado_293" data-name="Trazado 293" d="M7.237,285.694a1.638,1.638,0,1,0,0-3.277H0v3.277Z" transform="translate(0 -275.18)" fill="#fff"/>
+    <path id="Trazado_294" data-name="Trazado 294" d="M7.237,318.827a1.638,1.638,0,1,0,0-3.277H0v3.277Z" transform="translate(0 -301.075)" fill="#fff"/>
+  </g>
+  <circle id="Elipse_6" data-name="Elipse 6" cx="28.95" cy="28.95" r="28.95" transform="translate(36.188 18.094)" fill="#343a77"/>
+  <circle id="Elipse_7" data-name="Elipse 7" cx="21.712" cy="21.712" r="21.712" transform="translate(43.425 25.331)" fill="#161616"/>
+  <circle id="Elipse_8" data-name="Elipse 8" cx="7.237" cy="7.237" r="7.237" transform="translate(57.296 40.46) rotate(-5.106)" fill="#fff"/>
+</svg>

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import "colors";
+@import "grid";
+@import "menu";
+@import "header";
+@import "servicios";
+@import "empresas";
+@import "biografia";
+@import "herramientas";
+@import "footer";
+@import "arrow";
+@import "formulario";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+    text-transform:uppercase;
+    text-decoration:none;
+}

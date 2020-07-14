@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="30.667" viewBox="0 0 40 30.667">
+  <g id="ico-foto" transform="translate(0 -57.983)">
+    <path id="Trazado_279" data-name="Trazado 279" d="M53.7,110.753h-4v-2.425a.644.644,0,0,1,.644-.644h2.712a.644.644,0,0,1,.644.644Z" transform="translate(-45.7 -45.701)" fill="#343a77"/>
+    <path id="Trazado_280" data-name="Trazado 280" d="M70.251,107.683H68.4a.644.644,0,0,1,.644.644v2.425h1.851v-2.425A.644.644,0,0,0,70.251,107.683Z" transform="translate(-62.895 -45.7)" fill="#343a77"/>
+    <path id="Trazado_281" data-name="Trazado 281" d="M37.333,64.651H35.139a2.667,2.667,0,0,1-2.476-1.676L31.337,59.66a2.667,2.667,0,0,0-2.476-1.676H17.805a2.667,2.667,0,0,0-2.476,1.676L14,62.974a2.667,2.667,0,0,1-2.476,1.676H2.667A2.667,2.667,0,0,0,0,67.317V85.984a2.667,2.667,0,0,0,2.667,2.667H37.333A2.667,2.667,0,0,0,40,85.984V67.317A2.667,2.667,0,0,0,37.333,64.651Z" transform="translate(0 -0.001)" fill="#161616"/>
+    <g id="Grupo_72" data-name="Grupo 72" transform="translate(27.01 57.983)">
+      <path id="Trazado_282" data-name="Trazado 282" d="M338.078,59.659l1.326,3.314a2.667,2.667,0,0,0,2.476,1.676h1.851a2.667,2.667,0,0,1-2.476-1.676l-1.326-3.314a2.667,2.667,0,0,0-2.476-1.676H335.6A2.667,2.667,0,0,1,338.078,59.659Z" transform="translate(-335.602 -57.983)" fill="#161616"/>
+      <path id="Trazado_283" data-name="Trazado 283" d="M442.718,140.817h-1.851a2.667,2.667,0,0,1,2.667,2.667V162.15a2.667,2.667,0,0,1-2.667,2.667h1.851a2.667,2.667,0,0,0,2.667-2.667V143.484A2.667,2.667,0,0,0,442.718,140.817Z" transform="translate(-432.395 -134.15)" fill="#161616"/>
+    </g>
+    <path id="Trazado_284" data-name="Trazado 284" d="M132.533,207.083V225.75H159.2a2.667,2.667,0,0,0,2.667-2.667v-16Z" transform="translate(-121.866 -137.1)" fill="#161616"/>
+    <path id="Trazado_285" data-name="Trazado 285" d="M424.833,256.783h1.808a1.333,1.333,0,0,1,0,2.667h-1.808Z" transform="translate(-390.641 -182.8)" fill="#343a77"/>
+    <path id="Trazado_286" data-name="Trazado 286" d="M0,207.083H14.667a.6.6,0,1,1,0,1.207H0Z" transform="translate(0 -137.1)" fill="#161616"/>
+    <g id="Grupo_74" data-name="Grupo 74" transform="translate(18.063 61.379)">
+      <g id="Grupo_73" data-name="Grupo 73" transform="translate(0 0)">
+        <path id="Trazado_287" data-name="Trazado 287" d="M234.37,101.39h-9.333a.6.6,0,0,1,0-1.207h9.333a.6.6,0,1,1,0,1.207Z" transform="translate(-224.433 -100.183)" fill="#161616"/>
+      </g>
+    </g>
+    <path id="Trazado_288" data-name="Trazado 288" d="M432.757,375.417h-1.379a.644.644,0,0,1-.644-.644v-1.379a.644.644,0,0,1,.644-.644h1.379a.644.644,0,0,1,.644.644v1.379A.644.644,0,0,1,432.757,375.417Z" transform="translate(-396.067 -289.434)" fill="#343a77"/>
+    <path id="Trazado_289" data-name="Trazado 289" d="M125.637,162.754a.6.6,0,0,0,.6-.6V140.817h-1.207V162.15A.6.6,0,0,0,125.637,162.754Z" transform="translate(-114.97 -76.167)" fill="#161616"/>
+    <path id="Trazado_290" data-name="Trazado 290" d="M104.733,408.551H99.4v-2.023a.644.644,0,0,1,.644-.644h4.046a.644.644,0,0,1,.644.644Z" transform="translate(-91.4 -319.901)" fill="#343a77"/>
+    <g id="Grupo_75" data-name="Grupo 75" transform="translate(0 73.379)">
+      <path id="Trazado_292" data-name="Trazado 292" d="M2.667,250.49a.6.6,0,1,0,0-1.207H0v1.207Z" transform="translate(0 -249.283)" fill="#fff"/>
+      <path id="Trazado_293" data-name="Trazado 293" d="M2.667,283.624a.6.6,0,1,0,0-1.207H0v1.207Z" transform="translate(0 -279.75)" fill="#fff"/>
+      <path id="Trazado_294" data-name="Trazado 294" d="M2.667,316.757a.6.6,0,1,0,0-1.207H0v1.207Z" transform="translate(0 -310.217)" fill="#fff"/>
+    </g>
+    <circle id="Elipse_6" data-name="Elipse 6" cx="10.667" cy="10.667" r="10.667" transform="translate(13.333 64.65)" fill="#343a77"/>
+    <circle id="Elipse_7" data-name="Elipse 7" cx="8" cy="8" r="8" transform="translate(16 67.316)" fill="#161616"/>
+    <circle id="Elipse_8" data-name="Elipse 8" cx="2.667" cy="2.667" r="2.667" transform="translate(21.111 72.891) rotate(-5.106)" fill="#fff"/>
+  </g>
+</svg>

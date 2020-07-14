@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: repeat(7, auto);
+    //grid-gap: 20px;
+    grid-template-areas:
+    "menu            menu            menu"
+    "header          header          header"
+	"servicios       servicios       servicios"
+	"empresas        empresas        empresas"
+	"biografia       biografia       biografia"
+    "herramientas    herramientas    herramientas"
+    "footer          footer          footer";
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.header {
+    grid-area: header;
+}
+
+.servicios {
+    grid-area: servicios;
+}
+
+.empresas {
+    grid-area: empresas;
+}
+
+.biografia{
+    grid-area: biografia;
+}
+.herramientas {
+    grid-area: herramientas;
+}
+.footer {
+    grid-area: footer;
+}

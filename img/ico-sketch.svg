@@ -1,0 +1,17 @@
+<svg id="ico-sketch" xmlns="http://www.w3.org/2000/svg" width="40" height="36.197" viewBox="0 0 40 36.197">
+  <g id="sketch-symbol">
+    <path id="Path" d="M8.727,1.192,20,0,31.273,1.192,40,12.907,20,36.2,0,12.907Z" fill="#fdb300"/>
+    <g id="Group" transform="translate(0 12.907)">
+      <path id="Path-2" data-name="Path" d="M8.1,0,20,23.29,0,0Z" fill="#ea6c00"/>
+      <path id="Path-3" data-name="Path" d="M8.1,23.29,20,0,0,23.29Z" transform="translate(40 23.29) rotate(180)" fill="#ea6c00"/>
+      <path id="Path-4" data-name="Path" d="M79.634,0h23.8l-11.9,23.29Z" transform="translate(-71.533)" fill="#fdad00"/>
+    </g>
+    <g id="Group-2" data-name="Group">
+      <path id="Path-5" data-name="Path" d="M91.533,0,80.26,1.192l-.626,11.716Z" transform="translate(-71.533)" fill="#fdd231"/>
+      <path id="Path-6" data-name="Path" d="M11.9,12.907.626,11.716,0,0Z" transform="translate(31.899 12.907) rotate(180)" fill="#fdd231"/>
+      <path id="Path-7" data-name="Path" d="M0,0,8.727,11.716,8.1,0Z" transform="translate(40 12.907) rotate(180)" fill="#fdad00"/>
+      <path id="Path-8" data-name="Path" d="M0,23.431,8.727,11.715,8.1,23.431Z" transform="translate(0 -10.523)" fill="#fdad00"/>
+      <path id="Path-9" data-name="Path" d="M91.533,0l-11.9,12.907h23.8Z" transform="translate(-71.533)" fill="#feeeb7"/>
+    </g>
+  </g>
+</svg>

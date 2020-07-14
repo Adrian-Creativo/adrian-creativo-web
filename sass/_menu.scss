@@ -1,0 +1,52 @@
+.menu {
+    height: 80px;
+    background-color: rgba(23, 28, 83, 0.9);
+    border-top: solid 3px $comcolor;
+    position: fixed;
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    font-weight: 300;
+    z-index: 99;
+
+    .logo {
+        grid-column-start: 2;
+        align-self: center;
+        display: flex;
+        // mix-blend-mode: multiply;
+
+        img {
+            max-width: 80px;
+            max-height: 50px;
+            margin-right: 3em;
+        }
+
+        a {
+            width: 140px;
+            // margin-right: 3em;
+            align-self: center;
+            color:white;
+            font-size:15px;
+            position: relative;
+            display:inline-block;
+
+            i{
+                margin-left: 0.15em;
+                transition: 0.3s;
+            }
+        }
+
+        a:nth-child(odd) {
+            width: 160px;
+          }
+
+        a:hover {
+            // margin-right: 2.2em;
+
+            i {
+                margin-left: 0.4em;
+            }
+        }
+    }
+}

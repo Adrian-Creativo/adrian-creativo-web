@@ -1,0 +1,87 @@
+.login-box {
+    margin-top: 3em;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: grid;
+
+    label {
+        text-transform: uppercase;
+    }
+}
+
+.login-box .user-box {
+    position: relative;
+}
+  
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1em;
+    color: white;
+    margin-bottom: 2.5em;
+    border: none;
+    border-bottom: 1px solid $comcolor;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 0;
+    font-size: 1em;
+    color: white;
+    margin-bottom: 2.5em;
+    border: none;
+    border-bottom: 1px solid $comcolor;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label,
+  .login-box .user-box textarea:focus ~ label,
+  .login-box .user-box textarea:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: $comcolor;
+    font-size: 1em;
+  }
+  
+.btn {
+    width: 100%;
+    padding: 8px 20px;
+    background: transparent;
+    color: white;
+    font-size: 1em;
+    border: solid 1px $comcolor;
+    justify-self: end;
+
+    i{
+        margin-left: 0em;
+        transition: 0.3s;
+        border-width: 0 4px 4px 0;
+        padding: 0.25em;
+    }
+
+  }
+
+.btn:hover {
+                
+    i {
+        margin-left: 0.2em;
+    }
+}
