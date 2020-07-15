@@ -1,5 +1,5 @@
 .herramientas {
-    max-height: 1000px;
+    max-height: 1500px;
     border-top: solid 4px $maincolor;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -59,7 +59,7 @@
         .separador {
             background-image: url(../img/separador.png);
             background-repeat: no-repeat;
-            background-position: bottom;
+            background-position: top;
             background-size: 82% 1px;
         }
 
@@ -72,7 +72,7 @@
         }
 
         .cinco {
-            height: 300px;
+            height: auto;
         }
 
         .subitem {
@@ -91,11 +91,48 @@
                 align-self: center;
             }
 
+            div {
+                display: flex;
+                justify-content: space-between;
+            }
             h2 {
                 align-self: center;
-                margin-left: 0.5em;
+                margin-left: 0.6em;
                 font-size: 1.2em;
+                float: left;
             }
         }
     }
 }
+
+
+//////////////////////////////////////////
+
+
+.accordion {
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: $comcolor;
+  }
+  
+  .panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    font-weight: 700;
+    font-size: 20px;
+    justify-self: end;
+    margin-right: 20px;
+    align-self: center;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
