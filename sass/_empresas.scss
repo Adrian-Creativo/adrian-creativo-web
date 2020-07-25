@@ -67,3 +67,89 @@
         }
     }
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .empresas {
+        padding: 2.5em 0 2.5em 0;
+
+        .contenedor {
+            grid-template-columns: 1fr 7fr 1fr;
+            grid-template-rows: 6fr 1fr 10fr;
+
+            .texto {
+                grid-column: 1/4;
+                grid-row-start: 1;
+                align-self: start;
+            }
+
+            .logos {
+                grid-column: 1/4;
+                grid-row-start: 3;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: repeat(4, 1fr);
+                
+                img {
+                   // align-self: start;
+                }
+
+                img:nth-child(2) , img:nth-child(6), img:nth-child(10),
+                img:nth-child(14), img:nth-child(17), img:nth-child(18),
+                img:nth-child(19), img:nth-child(20) {
+                    display: none;
+                  }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .empresas {
+        padding: 2.5em 0 2.5em 0;
+
+        .contenedor {
+            grid-template-columns: 1fr 7fr 1fr;
+            grid-template-rows: 6fr 1fr 10fr;
+
+            .texto {
+                grid-column: 1/4;
+                grid-row-start: 1;
+                align-self: start;
+            }
+
+            .logos {
+                grid-column: 1/4;
+                grid-row-start: 3;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .empresas {
+        padding: 2.5em 0 2.5em 0;
+
+        .contenedor {
+            grid-template-columns: 1fr 7fr 1fr;
+            grid-template-rows: 6fr 1fr 10fr;
+
+            .texto {
+                grid-column: 1/4;
+                grid-row-start: 1;
+                align-self: start;
+            }
+
+            .logos {
+                grid-column: 1/4;
+                grid-row-start: 3;
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
+}
