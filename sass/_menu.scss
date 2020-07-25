@@ -1,52 +1,62 @@
-.menu {
+#nav {
     height: 70px;
-    background-color: rgba(23, 28, 83, 0.9);
     border-top: solid 3px $comcolor;
     position: fixed;
     width: 100%;
-    color: white;
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 2fr 6fr 1fr;
+    grid-template-rows: 1fr;
     font-weight: 300;
     z-index: 99;
+    align-content: center;
+    justify-content: space-between;
+    transition: 0.4s;
 
-    .logo {
-        grid-column-start: 2;
-        align-self: center;
+    #menu {
+        grid-column: 3/4;
+        grid-row: 1/2;
         display: flex;
-        // mix-blend-mode: multiply;
-
-        img {
-            max-width: 70px;
-            max-height: 45px;
-            margin-right: 3em;
-        }
-
+        justify-content: end;
+        margin-top: 3em;
+        transition: 0.4s;
+            
         a {
-            width: 120px;
-            // margin-right: 3em;
+            width: 100px;
             align-self: center;
-            color:white;
+            color:$maincolor;
             font-size:15px;
             position: relative;
             display:inline-block;
+            margin-left: 20px;
 
             i{
                 margin-left: 0.15em;
                 transition: 0.3s;
+                border: solid $maincolor;
+                border-width: 0 4px 4px 0;
             }
         }
 
-        a:nth-child(odd) {
-            width: 140px;
+        a:nth-child(2) {
+            width: 120px;
           }
 
         a:hover {
-            // margin-right: 2.2em;
-
             i {
                 margin-left: 0.4em;
             }
+        }
+    }
+
+    #logo {
+        grid-column-start: 2;
+        align-self: center;
+        height: 60px;
+        margin-top: 4em;
+        transition: 0.4s;
+
+        img {
+            height: 100%;
         }
     }
 }

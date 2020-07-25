@@ -1,3 +1,25 @@
+////////////////// MENU SCROLLING ////////////////////////////
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("menu").style.marginTop = "0em";
+    document.getElementById("logo").style.marginTop = "0em";
+    document.getElementById("logo").style.height = "30px";
+    document.getElementById("nav").style.backgroundColor = "rgba(255, 255, 255, 0.9)";
+    document.getElementById("nav").style.height = "55px";
+  } else {
+    document.getElementById("menu").style.marginTop = "3em";
+    document.getElementById("logo").style.marginTop = "4em";
+    document.getElementById("logo").style.height = "60px";
+    document.getElementById("nav").style.backgroundColor = "transparent";
+    document.getElementById("nav").style.height = "70px";
+  }
+}
+
+////////////////////////// FANCY TYPING HEADER ///////////////////////////
+
 let wrapper
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms))
 

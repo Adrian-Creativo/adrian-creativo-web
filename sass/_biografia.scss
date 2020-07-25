@@ -1,7 +1,7 @@
 .biografia {
     height: 780px;
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 6fr 1fr;
     grid-template-rows: 1fr 4fr 1fr;
 
     .contenedor {
@@ -12,7 +12,7 @@
         grid-template-columns: 6fr 1fr 6fr;
 
         img {
-            max-width: 400px;
+            max-width: 360px;
             align-self: center;
             border-radius: 50%;
             box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.24);
@@ -54,4 +54,47 @@
             }
         }
     }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 824.98px) {
+    .biografia {
+        height: 500px;
+
+        .contenedor {
+            grid-template-columns: 3fr 1fr 9fr;
+            
+            img {
+                max-width: 150px;
+                align-self: start;
+            }
+
+            .texto {
+                align-self: start;
+            }
+        }
+      }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 825px) and (max-width: 991.98px) {
+  .biografia {
+
+    .contenedor {
+
+        img {
+            max-width: 300px;
+        }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
 }
