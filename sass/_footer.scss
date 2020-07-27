@@ -1,5 +1,5 @@
 .footer {
-    height: 755px;
+    height: auto;
     border-top: solid 5px $comcolor;
     background-image: url(../img/fondo-footer.jpg);
     background-position: center center;
@@ -7,7 +7,7 @@
     background-attachment: fixed;
     background-size: cover;
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 6fr 1fr;
     grid-template-rows: 1fr 4fr 1fr;
     color: white;
 
@@ -17,17 +17,16 @@
     }
 
     .contenedor {
-        // background-color: $comcolor;
         grid-column: 2/3;
         grid-row: 2/3;
         height: 100%;
         display: grid;
-        grid-template-columns: 7fr 1fr 7fr;
+        grid-template-columns: 4fr 0.5fr 7fr;
 
         .primera {
             grid-column: 1/2;
             display: grid;
-            align-content: center;
+            align-content: start;
         }
 
         .segunda {
@@ -41,10 +40,10 @@
         }
         .logo {
             width: 100%;
-            margin-bottom: 6em;
+            margin-bottom: 3em;
             
             img {
-                max-height: 80px;
+                height: 100px;
             }
         }
 
@@ -92,7 +91,154 @@
                 display:inline-block;
                 max-width: 20px;
                 margin-right: 1em;
+                margin-top: 1em;
             }
         }
     }
+}
+
+///////////////// MEDIA QUERIES ///////////////////
+
+@media (max-width: 575.98px) {
+    .footer {
+        grid-template-columns: 1fr 5fr 1fr;
+        grid-template-rows: 1fr 15fr 1fr;
+
+        .contenedor {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 2fr;
+
+            .primera {
+                grid-column: 1/2;
+                grid-row: 1/2;
+                justify-content: center;
+            }
+    
+            .segunda {
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+
+            .logo {
+                margin-bottom: 2.5em;
+            }
+            .escribeme {
+                margin-bottom: 2.5em;
+            }
+            .sigueme {
+                margin-bottom: 2.5em;
+                
+                img {
+                    margin-right: 0;
+                    margin-left: 1.5em;
+                }
+
+                img:nth-child(1) {
+                    margin-left: 2em;
+                    background-color: $comcolor;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+    .footer {
+        grid-template-columns: 1fr 5fr 1fr;
+        grid-template-rows: 1fr 15fr 1fr;
+
+        .contenedor {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 2fr;
+
+            .primera {
+                grid-column: 1/2;
+                grid-row: 1/2;
+                justify-content: center;
+            }
+    
+            .segunda {
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+
+            .logo {
+                margin-bottom: 2.5em;
+            }
+            .escribeme {
+                margin-bottom: 2.5em;
+            }
+            .sigueme {
+                margin-bottom: 2.5em;
+                
+                img {
+                    margin-right: 0;
+                    margin-left: 1.5em;
+                }
+
+                img:nth-child(1) {
+                    margin-left: 2em;
+                    background-color: $comcolor;
+                }
+            }
+        }
+    }
+}
+  
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .footer {
+        grid-template-columns: 1fr 5fr 1fr;
+        grid-template-rows: 1fr 15fr 1fr;
+
+        .contenedor {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 2fr;
+
+            .primera {
+                grid-column: 1/2;
+                grid-row: 1/2;
+                justify-content: center;
+            }
+    
+            .segunda {
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+
+            .logo {
+                margin-bottom: 2.5em;
+            }
+            .escribeme {
+                margin-bottom: 2.5em;
+            }
+            .sigueme {
+                margin-bottom: 2.5em;
+                
+                img {
+                    margin-right: 0;
+                    margin-left: 1.5em;
+                }
+
+                img:nth-child(1) {
+                    margin-left: 2em;
+                    background-color: $comcolor;
+                }
+            }
+        }
+    }
+
+}
+  
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+      
+}
+  
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+      
 }

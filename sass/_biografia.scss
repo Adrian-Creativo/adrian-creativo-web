@@ -1,5 +1,5 @@
 .biografia {
-    height: 780px;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
     grid-template-rows: 1fr 4fr 1fr;
@@ -51,6 +51,33 @@
                 i {
                     margin-left: 0.2em;
                 }
+            }
+        }
+    }
+}
+
+/////////////////////// MEDIA QUERIES ///////////////////////
+
+@media (max-width: 575.98px) {
+    .biografia {
+        height: auto;
+        padding: 4em 0 4em 0;
+        grid-template-rows: 1fr;
+
+        .contenedor {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto;
+            
+            img {
+                max-width: 150px;
+                justify-self: center;
+            }
+
+            .texto {
+                margin-top: 3em;
+                align-self: start;
+                grid-column: 1/2;
+                grid-row: 2/3;
             }
         }
     }
