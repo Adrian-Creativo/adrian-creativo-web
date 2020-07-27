@@ -7,7 +7,7 @@
     height: 850px;
     border-top: solid 5px $comcolor;
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
     grid-template-rows: 1fr 4fr 1fr;
 
     .contenedor {
@@ -68,6 +68,77 @@
     }
 }
 
+////////////////////////// MEDIA QUERIES ////////////////////////
+@media (max-width: 414.98px){
+    .empresas {
+        padding: 2.5em 0 2.5em 0;
+        height: auto;
+        overflow: hidden;
+        grid-template-rows: 1fr;
+
+        .contenedor {
+            grid-template-columns: 1fr 7fr 1fr;
+            grid-template-rows: 5fr 0.5fr 3fr;
+
+            .texto {
+                grid-column: 1/4;
+                grid-row-start: 1;
+                align-self: start;
+            }
+
+            .logos {
+                grid-column: 1/4;
+                grid-row-start: 3;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: repeat(5, 1fr);
+                
+                img {
+                   width: 70%;
+                }
+
+                img:nth-child(2) , img:nth-child(6), img:nth-child(10), img:nth-child(12),
+                img:nth-child(13), img:nth-child(14), img:nth-child(17), img:nth-child(18),
+                img:nth-child(19), img:nth-child(20) {
+                    display: none;
+                  }
+            }
+        }
+    }
+}
+@media (min-width: 415px) and (max-width: 575.98px) {
+    .empresas {
+        padding: 2.5em 0 2.5em 0;
+
+        .contenedor {
+            grid-template-columns: 1fr 7fr 1fr;
+            grid-template-rows: 5fr 0.5fr 6fr;
+
+            .texto {
+                grid-column: 1/4;
+                grid-row-start: 1;
+                align-self: start;
+            }
+
+            .logos {
+                grid-column: 1/4;
+                grid-row-start: 3;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: repeat(4, 1fr);
+                
+                img {
+                   width: 70%;
+                }
+
+                img:nth-child(2) , img:nth-child(6), img:nth-child(10),
+                img:nth-child(14), img:nth-child(17), img:nth-child(18),
+                img:nth-child(19), img:nth-child(20) {
+                    display: none;
+                  }
+            }
+        }
+    }
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
     .empresas {
@@ -88,10 +159,6 @@
                 grid-row-start: 3;
                 grid-template-columns: 1fr 1fr 1fr;
                 grid-template-rows: repeat(4, 1fr);
-                
-                img {
-                   // align-self: start;
-                }
 
                 img:nth-child(2) , img:nth-child(6), img:nth-child(10),
                 img:nth-child(14), img:nth-child(17), img:nth-child(18),

@@ -1,14 +1,14 @@
 .herramientas {
-    max-height: 1500px;
+    height: auto;
     border-top: solid 4px $maincolor;
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 1fr 7fr 1fr;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr 7fr 0.9fr;
 
     .titulo {
         grid-column: 2/3;
         grid-row: 1/2;
-        width: 65%;
+        width: 95%;
         background-color: $maincolor;
         border-bottom: solid 5px $comcolor;
         display: grid;
@@ -22,7 +22,6 @@
     }
 
     .contenedor {
-        // background-color: $maincolor;
         grid-column: 2/3;
         grid-row: 2/3;
         display: grid;
@@ -31,28 +30,11 @@
         font-size: 0.8em;
         margin-top: 5em;
 
-        .primera {
-            grid-column: 1/2;
-            width: 84%;
-            justify-self: center;
-        }
-
-        .segunda {
-            grid-column: 2/3;
-            width: 84%;
-            justify-self: center;
-        }
-
-        .tercera {
-            grid-column: 3/4;
-            width: 84%;
-            justify-self: center;
-        }
-
         .item {
             box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.24);
-            width: 100%;
+            width: 84%;
             align-self: start;
+            justify-self: center;
             margin-bottom: 20px;
         }
 
@@ -127,4 +109,50 @@
 
   .active:after {
     content: "\2212";
+  }
+
+  ///////////////////// MEDIA QUERIES //////////////////////
+
+@media (max-width: 575.98px) {
+    .herramientas {
+        grid-template-rows: 0.8fr 7fr 0.3fr;
+
+        .titulo {
+            width: 85%;
+            text-align: center;
+        }
+
+        .contenedor {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .herramientas {
+        max-height: auto;
+
+        .titulo {
+            width: 95%;
+        }
+
+        .contenedor {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+  }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+      
+  }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+      
   }
