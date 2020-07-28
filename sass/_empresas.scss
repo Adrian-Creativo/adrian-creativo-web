@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 850px;
+    height: auto;
     border-top: solid 5px $comcolor;
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
@@ -71,14 +71,13 @@
 ////////////////////////// MEDIA QUERIES ////////////////////////
 @media (max-width: 414.98px){
     .empresas {
-        padding: 2.5em 0 2.5em 0;
-        height: auto;
+        min-height: 800px;
         overflow: hidden;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr 10fr 1fr;
 
         .contenedor {
             grid-template-columns: 1fr 7fr 1fr;
-            grid-template-rows: 5fr 0.5fr 3fr;
+            grid-template-rows: 5fr 0.5fr 5fr;
 
             .texto {
                 grid-column: 1/4;
@@ -107,7 +106,8 @@
 }
 @media (min-width: 415px) and (max-width: 575.98px) {
     .empresas {
-        padding: 2.5em 0 2.5em 0;
+        grid-template-rows: 1fr 10fr 1fr;
+        padding-top: 1em;
 
         .contenedor {
             grid-template-columns: 1fr 7fr 1fr;
@@ -142,7 +142,8 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
     .empresas {
-        padding: 2.5em 0 2.5em 0;
+        grid-template-rows: 1fr 10fr 1fr;
+        padding-top: 1em;
 
         .contenedor {
             grid-template-columns: 1fr 7fr 1fr;
@@ -173,7 +174,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
     .empresas {
-        padding: 2.5em 0 2.5em 0;
+        grid-template-rows: 1fr 7fr 1fr;
 
         .contenedor {
             grid-template-columns: 1fr 7fr 1fr;
@@ -196,7 +197,7 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .empresas {
-        padding: 2.5em 0 2.5em 0;
+        grid-template-rows: 1fr 7fr 1fr;
 
         .contenedor {
             grid-template-columns: 1fr 7fr 1fr;
