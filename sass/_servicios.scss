@@ -1,6 +1,7 @@
 .servicios {
-    height: 650px;
+    height: auto;
     display: grid;
+    padding: 5em 0;
     grid-template-columns: 0.7fr repeat(4, 1fr) 0.7fr;
     justify-content: center;
 
@@ -14,7 +15,7 @@
 }
 
 .card {
-    width: 85%;
+    width: 75%;
     height: 12em;   
     background-color: white;
     box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.24);
@@ -25,6 +26,7 @@
     -webkit-transition: 0.4s ease-out;
     transition: 0.4s ease-out;
     align-self: center;
+    padding: 0 1em;
 
     .imgori {
         max-height: 55px;
@@ -127,11 +129,15 @@
     .servicios {
       .contenedor {
           grid-column: 2/6;
-          height: 85%;
+          min-height: 415px;
           align-self: center;
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr 1fr;
+
+          .card {
+            height: 90%;
+          }
       }
   }
   }
@@ -141,11 +147,16 @@
     .servicios {
       .contenedor {
           grid-column: 2/6;
-          height: 85%;
+          min-height: 415px;
           align-self: center;
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr 1fr;
+
+          .card {
+            height: 90%;
+            width: 85%;
+          }
       }
   }
   }
@@ -155,16 +166,16 @@
       .servicios {
           .contenedor {
               grid-column: 2/6;
-              height: 85%;
+              min-height: 415px;
               align-self: center;
               display: grid;
               grid-template-columns: 1fr 1fr;
               grid-template-rows: 1fr 1fr;
+
+              .card {
+                height: 90%;
+                width: 85%;
+              }
           }
       }
   }
-  
-  // Extra large devices (large desktops, 1200px and up)
-  // @media (min-width: 1200px) {
-
- // }
