@@ -255,7 +255,7 @@ body {
   -ms-flex-line-pack: center;
       align-content: center;
   color: #31467F;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .header .recuadroheader span {
