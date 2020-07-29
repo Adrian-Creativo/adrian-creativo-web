@@ -863,8 +863,8 @@ body {
   display: grid;
   -ms-grid-columns: 1fr 6fr 1fr;
       grid-template-columns: 1fr 6fr 1fr;
-  -ms-grid-rows: 1fr 4fr 1fr;
-      grid-template-rows: 1fr 4fr 1fr;
+  -ms-grid-rows: 1fr 6fr 1fr;
+      grid-template-rows: 1fr 6fr 1fr;
 }
 
 .biografia .contenedor {
@@ -883,9 +883,9 @@ body {
 
 .biografia .contenedor img {
   max-width: 360px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
   border-radius: 50%;
   -webkit-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.24);
           box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.24);
@@ -933,7 +933,6 @@ body {
 
 @media (max-width: 575.98px) {
   .biografia {
-    height: auto;
     padding: 4em 0 4em 0;
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
@@ -964,9 +963,6 @@ body {
 }
 
 @media (min-width: 576px) and (max-width: 824.98px) {
-  .biografia {
-    height: 500px;
-  }
   .biografia .contenedor {
     -ms-grid-columns: 3fr 1fr 9fr;
         grid-template-columns: 3fr 1fr 9fr;
@@ -1577,6 +1573,10 @@ body {
   margin-left: 0.2em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -1601,6 +1601,7 @@ h2 {
 
 p {
   font-size: 0.9em;
+  line-height: 1.6em;
 }
 
 a {
