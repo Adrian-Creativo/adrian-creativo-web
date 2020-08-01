@@ -1,0 +1,108 @@
+#portfolio {
+    display: grid;
+    grid-area: portafolio;
+    
+    .filter{
+        a {
+            color: #000;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+    }
+    .active {
+        a {
+            color: #ffffff !important;
+        }
+    }
+    
+    p {
+        margin: 0 0 10px;
+      }
+    
+      .active:after {
+        content: "";
+      }
+}
+
+.section {
+    padding-bottom: 50px;
+}
+.section .container {
+    padding-top:50px;
+}
+.section .title {
+    text-align: center;
+    padding:10px;
+    margin-bottom: 30px;
+}
+.section .title h1 {
+    // font-weight: normal;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.section .title > p {
+    color: #000;
+}
+
+.secondary-section {
+    background:$comcolor;
+}
+
+.thumbnail h3, 
+.thumbnail p {
+    margin:0;
+    padding:0;
+    position:relative;
+    z-index:4;
+}
+.thumbnail h3 {
+    color: $comcolor;
+    margin-top:10px;
+    font-size:20px;
+}
+.thumbnail > p {
+    padding-bottom:20px;
+    color: #ffffff;
+}
+
+.project-title .close {
+    color: $comcolor;
+    margin-top:10px;
+}
+
+.project-info {
+    font-weight:100;
+    padding:10px 0;
+    color: #fff;
+}
+.project-info span {
+    width: 80px;
+    display: inline-block;
+}
+.project-info div {
+    margin-bottom:5px;
+}
+
+.project-info span, .project-title h3 {
+    color:$comcolor;
+}
+
+.project-description {
+    padding-right:20px;
+}
+.project-description p {
+    padding-left:0;
+    color: white;
+}
+.project-title {
+    margin-top:15px;
+    margin-bottom:15px;
+    border-bottom:1px solid $comcolor;
+}
+.project-title h3 {
+    float:left;
+    margin-top:0;
+    padding:0;
+    width:80%;
+}

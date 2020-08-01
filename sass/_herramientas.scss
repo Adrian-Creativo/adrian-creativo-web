@@ -3,7 +3,24 @@
     border-top: solid 4px $maincolor;
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
-    grid-template-rows: 1fr 7fr 0.9fr;
+    grid-template-rows: 3fr 7fr 0.9fr;
+
+    h2 {
+      line-height: 20px;
+    }
+    .title {
+        margin-top: 3em;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 95%;
+        text-align: center;
+        border-bottom: 1px solid $comcolor;
+  
+        p {
+          color: $maincolor;
+          margin-bottom: 40px;
+        }
+      }
 
     .titulo {
         grid-column: 2/3;
@@ -46,7 +63,7 @@
         }
 
         .cinco {
-            height: auto;
+            min-height: auto;
         }
 
         .subitem {
@@ -115,7 +132,7 @@
 
 @media (max-width: 575.98px) {
     .herramientas {
-        grid-template-rows: 0.8fr 7fr 0.3fr;
+        grid-template-rows: 2fr 7fr 0.3fr;
 
         .titulo {
             width: 85%;
@@ -131,10 +148,21 @@
   @media (min-width: 576px) and (max-width: 767.98px) {
     .herramientas {
         max-height: auto;
-
-        .titulo {
+        grid-template-rows: 2fr 7fr 0.9fr;
+        
+        .title {
+            margin-top: 3em;
+            grid-column: 2/3;
+            grid-row: 1/2;
             width: 95%;
-        }
+            text-align: center;
+            border-bottom: 1px solid $comcolor;
+            height: 75%;
+      
+            p {
+              margin-bottom: 0;
+            }
+          }
 
         .contenedor {
             grid-template-columns: 1fr 1fr;

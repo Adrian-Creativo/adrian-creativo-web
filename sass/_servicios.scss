@@ -1,10 +1,21 @@
 .servicios {
     height: auto;
     display: grid;
-    padding: 5em 0;
+    padding: 4em 0 5em 0;
     grid-template-columns: 0.7fr repeat(4, 1fr) 0.7fr;
     justify-content: center;
 
+    .title {
+      grid-column: 2/6;
+      text-align: center;
+      border-bottom: 1px solid $comcolor;
+      margin-bottom: 2.8em;
+
+      p {
+        margin-bottom: 40px;
+        color: $maincolor;
+      }
+    }
     .contenedor {
         grid-column: 2/6;
         height: 315px;
@@ -106,11 +117,11 @@
 
   @media (max-width: 575.98px) {
     .servicios {
-      height: 1000px;
+      height: auto;
 
       .contenedor {
           grid-column: 2/6;
-          height: 85%;
+          height: 900px;
           align-self: center;
           display: grid;
           grid-template-columns: 1fr;

@@ -4,9 +4,9 @@ body {
   display: grid;
   -ms-grid-columns: 1fr 4fr 1fr;
       grid-template-columns: 1fr 4fr 1fr;
-  -ms-grid-rows: (auto)[7];
-      grid-template-rows: repeat(7, auto);
-      grid-template-areas: "menu            menu            menu" "header          header          header" "servicios       servicios       servicios" "empresas        empresas        empresas" "biografia       biografia       biografia" "herramientas    herramientas    herramientas" "footer          footer          footer";
+  -ms-grid-rows: (auto)[8];
+      grid-template-rows: repeat(8, auto);
+      grid-template-areas: "menu            menu            menu" "header          header          header" "servicios       servicios       servicios" "portafolio      portafolio      portafolio" "empresas        empresas        empresas" "biografia       biografia       biografia" "herramientas    herramientas    herramientas" "footer          footer          footer";
 }
 
 .menu {
@@ -31,28 +31,28 @@ body {
 }
 
 .empresas {
-  -ms-grid-row: 4;
+  -ms-grid-row: 5;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: empresas;
 }
 
 .biografia {
-  -ms-grid-row: 5;
+  -ms-grid-row: 6;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: biografia;
 }
 
 .herramientas {
-  -ms-grid-row: 6;
+  -ms-grid-row: 7;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: herramientas;
 }
 
 .footer {
-  -ms-grid-row: 7;
+  -ms-grid-row: 8;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: footer;
@@ -230,6 +230,7 @@ body {
   height: 100vh;
   display: -ms-grid;
   display: grid;
+  grid-area: "header";
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr;
@@ -371,12 +372,26 @@ body {
   height: auto;
   display: -ms-grid;
   display: grid;
-  padding: 5em 0;
+  padding: 4em 0 5em 0;
   -ms-grid-columns: 0.7fr (1fr)[4] 0.7fr;
       grid-template-columns: 0.7fr repeat(4, 1fr) 0.7fr;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.servicios .title {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-column: 2/6;
+  text-align: center;
+  border-bottom: 1px solid #FFAA00;
+  margin-bottom: 2.8em;
+}
+
+.servicios .title p {
+  margin-bottom: 40px;
+  color: #31467F;
 }
 
 .servicios .contenedor {
@@ -495,13 +510,13 @@ body {
 
 @media (max-width: 575.98px) {
   .servicios {
-    height: 1000px;
+    height: auto;
   }
   .servicios .contenedor {
     -ms-grid-column: 2;
     -ms-grid-column-span: 4;
     grid-column: 2/6;
-    height: 85%;
+    height: 900px;
     -ms-grid-row-align: center;
         align-self: center;
     display: -ms-grid;
@@ -577,6 +592,127 @@ body {
     height: 90%;
     width: 85%;
   }
+}
+
+#portfolio {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: portafolio;
+}
+
+#portfolio .filter a {
+  color: #000;
+}
+
+#portfolio .filter a:hover {
+  color: #ffffff;
+}
+
+#portfolio .active a {
+  color: #ffffff !important;
+}
+
+#portfolio p {
+  margin: 0 0 10px;
+}
+
+#portfolio .active:after {
+  content: "";
+}
+
+.section {
+  padding-bottom: 50px;
+}
+
+.section .container {
+  padding-top: 50px;
+}
+
+.section .title {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.section .title h1 {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.section .title > p {
+  color: #000;
+}
+
+.secondary-section {
+  background: #FFAA00;
+}
+
+.thumbnail h3,
+.thumbnail p {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 4;
+}
+
+.thumbnail h3 {
+  color: #FFAA00;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.thumbnail > p {
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+.project-title .close {
+  color: #FFAA00;
+  margin-top: 10px;
+}
+
+.project-info {
+  font-weight: 100;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.project-info span {
+  width: 80px;
+  display: inline-block;
+}
+
+.project-info div {
+  margin-bottom: 5px;
+}
+
+.project-info span, .project-title h3 {
+  color: #FFAA00;
+}
+
+.project-description {
+  padding-right: 20px;
+}
+
+.project-description p {
+  padding-left: 0;
+  color: white;
+}
+
+.project-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #FFAA00;
+}
+
+.project-title h3 {
+  float: left;
+  margin-top: 0;
+  padding: 0;
+  width: 80%;
 }
 
 .empresas {
@@ -993,8 +1129,30 @@ body {
   display: grid;
   -ms-grid-columns: 1fr 6fr 1fr;
       grid-template-columns: 1fr 6fr 1fr;
-  -ms-grid-rows: 1fr 7fr 0.9fr;
-      grid-template-rows: 1fr 7fr 0.9fr;
+  -ms-grid-rows: 3fr 7fr 0.9fr;
+      grid-template-rows: 3fr 7fr 0.9fr;
+}
+
+.herramientas h2 {
+  line-height: 20px;
+}
+
+.herramientas .title {
+  margin-top: 3em;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  width: 95%;
+  text-align: center;
+  border-bottom: 1px solid #FFAA00;
+}
+
+.herramientas .title p {
+  color: #31467F;
+  margin-bottom: 40px;
 }
 
 .herramientas .titulo {
@@ -1059,7 +1217,7 @@ body {
 }
 
 .herramientas .contenedor .cinco {
-  height: auto;
+  min-height: auto;
 }
 
 .herramientas .contenedor .subitem {
@@ -1140,8 +1298,8 @@ body {
 
 @media (max-width: 575.98px) {
   .herramientas {
-    -ms-grid-rows: 0.8fr 7fr 0.3fr;
-        grid-template-rows: 0.8fr 7fr 0.3fr;
+    -ms-grid-rows: 2fr 7fr 0.3fr;
+        grid-template-rows: 2fr 7fr 0.3fr;
   }
   .herramientas .titulo {
     width: 85%;
@@ -1156,9 +1314,24 @@ body {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .herramientas {
     max-height: auto;
+    -ms-grid-rows: 2fr 7fr 0.9fr;
+        grid-template-rows: 2fr 7fr 0.9fr;
   }
-  .herramientas .titulo {
+  .herramientas .title {
+    margin-top: 3em;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
     width: 95%;
+    text-align: center;
+    border-bottom: 1px solid #FFAA00;
+    height: 75%;
+  }
+  .herramientas .title p {
+    margin-bottom: 0;
   }
   .herramientas .contenedor {
     -ms-grid-columns: 1fr 1fr;
