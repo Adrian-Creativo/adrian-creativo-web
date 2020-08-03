@@ -2,6 +2,12 @@
     display: grid;
     grid-area: portafolio;
     
+    .title{
+        a {
+            text-transform: none;
+            color: white;
+        }
+    }
     .filter{
         a {
             color: #000;

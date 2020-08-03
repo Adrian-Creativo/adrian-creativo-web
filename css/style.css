@@ -603,6 +603,11 @@ body {
   grid-area: portafolio;
 }
 
+#portfolio .title a {
+  text-transform: none;
+  color: white;
+}
+
 #portfolio .filter a {
   color: #000;
 }
