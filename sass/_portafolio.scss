@@ -77,9 +77,20 @@
     color: #fff;
 }
 .project-info span {
-    width: 80px;
+    width: 130px;
     display: inline-block;
 }
+
+.project-info a {
+    color: $comcolor;
+    text-transform: none;
+    text-decoration: none;
+
+    img {
+        max-width: 18px;
+    }
+}
+
 .project-info div {
     margin-bottom:5px;
 }

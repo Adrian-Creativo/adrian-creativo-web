@@ -681,8 +681,18 @@ body {
 }
 
 .project-info span {
-  width: 80px;
+  width: 130px;
   display: inline-block;
+}
+
+.project-info a {
+  color: #FFAA00;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.project-info a img {
+  max-width: 18px;
 }
 
 .project-info div {
@@ -1441,10 +1451,23 @@ body {
   width: 100%;
 }
 
+.footer .contenedor .sigueme a {
+  margin-right: 0;
+  margin-left: 1em;
+  color: white;
+}
+
+.footer .contenedor .sigueme a i {
+  font-size: 1.5em;
+}
+
+.footer .contenedor .sigueme a:hover {
+  color: #FFAA00;
+}
+
 .footer .contenedor .sigueme h1 {
   position: relative;
   display: inline-block;
-  margin-right: 1em;
 }
 
 .footer .contenedor .sigueme img {
@@ -1598,13 +1621,15 @@ body {
   .footer .contenedor .sigueme {
     margin-bottom: 2.5em;
   }
-  .footer .contenedor .sigueme img {
+  .footer .contenedor .sigueme a {
     margin-right: 0;
-    margin-left: 1.5em;
+    margin-left: 1em;
   }
-  .footer .contenedor .sigueme img:nth-child(1) {
-    margin-left: 2em;
-    background-color: #FFAA00;
+  .footer .contenedor .sigueme a i {
+    font-size: 1.5em;
+  }
+  .footer .contenedor .sigueme a:nth-child(1) {
+    margin-left: 1.5em;
   }
 }
 
