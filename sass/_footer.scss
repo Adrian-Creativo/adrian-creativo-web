@@ -79,11 +79,24 @@
 
         .sigueme {
             width: 100%;
+
+            a {
+                margin-right: 0;
+                margin-left: 1em;
+                color: white;
+
+                i {
+                    font-size: 1.5em;
+                }
+            }
+
+            a:hover {
+                color: $comcolor;
+            }
             
             h1 {
                 position: relative;
                 display:inline-block;
-                margin-right: 1em;
             }
 
             img {
@@ -218,14 +231,17 @@
             .sigueme {
                 margin-bottom: 2.5em;
                 
-                img {
+                a {
                     margin-right: 0;
-                    margin-left: 1.5em;
+                    margin-left: 1em;
+
+                    i {
+                        font-size: 1.5em;
+                    }
                 }
 
-                img:nth-child(1) {
-                    margin-left: 2em;
-                    background-color: $comcolor;
+                a:nth-child(1) {
+                    margin-left: 1.5em;
                 }
             }
         }
