@@ -394,6 +394,11 @@ body {
   color: #31467F;
 }
 
+.servicios .title a {
+  text-transform: none;
+  font-weight: 700;
+}
+
 .servicios .contenedor {
   -ms-grid-column: 2;
   -ms-grid-column-span: 4;
@@ -606,6 +611,7 @@ body {
 #portfolio .title a {
   text-transform: none;
   color: white;
+  font-weight: 700;
 }
 
 #portfolio .filter a {
