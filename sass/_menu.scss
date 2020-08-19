@@ -4,7 +4,7 @@
     position: fixed;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 2fr 6fr 1fr;
+    grid-template-columns: 1fr 2fr 7fr 1fr;
     grid-template-rows: 1fr;
     font-weight: 300;
     z-index: 99;
@@ -42,6 +42,10 @@
                 transition: 0.3s;
                 border: solid $maincolor;
                 border-width: 0 4px 4px 0;
+            }
+
+            img {
+                max-width: 22px;
             }
         }
 
@@ -89,6 +93,10 @@
             a {
                 display: none;
                 position: fixed;
+                
+                img {
+                    margin-left: 5em;
+                }
             }
 
             a:not(:first-child){
@@ -107,6 +115,10 @@
 
             a:nth-child(4) {
                 top: 190px;
+            }
+
+            a:nth-child(5) {
+                top: 240px;
             }
 
             a.icon-bars {
@@ -129,10 +141,6 @@
         #logo {
             align-self: center;
             margin-top: 0;
-    
-            img {
-                height: 100%;
-            }
         }
     }
 }
